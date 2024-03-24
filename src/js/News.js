@@ -3,7 +3,7 @@ export default class News {
     this.parentElement = element;
     this.buttonReload = this.parentElement.querySelector(".news_reload");
     this.newsListElement = this.parentElement.querySelector(".news_list");
-    this.url = "https://ahj-workers-backend-x5ki.onrender.com";
+    this.url = "https://ahj-workers-backend-x5ki.onrender.com/";
   }
 
   init() {
